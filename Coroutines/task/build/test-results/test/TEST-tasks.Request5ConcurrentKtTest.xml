@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tasks.Request5ConcurrentKtTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-27T02:24:38" hostname="RIKOBAZUKI" time="0.452">
+  <properties/>
+  <testcase name="testConcurrent" classname="tasks.Request5ConcurrentKtTest" time="0.452"/>
+  <system-out><![CDATA[202 [Test worker @coroutine#1] INFO  Contributors - org: loaded 3 repos
+215 [Test worker @coroutine#2] INFO  Contributors - starting loading for repo-1
+216 [Test worker @coroutine#3] INFO  Contributors - starting loading for repo-2
+216 [Test worker @coroutine#4] INFO  Contributors - starting loading for repo-3
+217 [Test worker @coroutine#4] INFO  Contributors - repo-3: loaded 2 contributors
+217 [Test worker @coroutine#2] INFO  Contributors - repo-1: loaded 2 contributors
+217 [Test worker @coroutine#3] INFO  Contributors - repo-2: loaded 2 contributors
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,35 @@
+I202 [Test worker @coroutine#1] INFO  Contributors - org: loaded 3 repos
+Q215 [Test worker @coroutine#2] INFO  Contributors - starting loading for repo-1
+Q216 [Test worker @coroutine#3] INFO  Contributors - starting loading for repo-2
+Q216 [Test worker @coroutine#4] INFO  Contributors - starting loading for repo-3
+S217 [Test worker @coroutine#4] INFO  Contributors - repo-3: loaded 2 contributors
+S217 [Test worker @coroutine#2] INFO  Contributors - repo-1: loaded 2 contributors
+S217 [Test worker @coroutine#3] INFO  Contributors - repo-2: loaded 2 contributors
+I229 [Test worker @coroutine#5] INFO  Contributors - org: loaded 3 repos
+S234 [Test worker @coroutine#8] INFO  Contributors - repo-3: loaded 2 contributors
+S236 [Test worker @coroutine#6] INFO  Contributors - repo-1: loaded 2 contributors
+S236 [Test worker @coroutine#7] INFO  Contributors - repo-2: loaded 2 contributors
+<243 [Test worker] INFO  Contributors - org: loaded 3 repos
+F243 [Test worker] INFO  Contributors - repo-1: loaded 2 contributors
+F243 [Test worker] INFO  Contributors - repo-2: loaded 2 contributors
+F243 [Test worker] INFO  Contributors - repo-3: loaded 2 contributors
+
+	9250 [Thread-3] INFO  Contributors - org: loaded 3 repos
+
+	C251 [Thread-3] INFO  Contributors - repo-1: loaded 2 contributors
+
+	C251 [Thread-3] INFO  Contributors - repo-2: loaded 2 contributors
+
+	C252 [Thread-3] INFO  Contributors - repo-3: loaded 2 contributors
+=1274 [Test worker] INFO  Contributors - org: loaded 3 repos
+G1275 [Test worker] INFO  Contributors - repo-1: loaded 2 contributors
+G1275 [Test worker] INFO  Contributors - repo-2: loaded 2 contributors
+G1275 [Test worker] INFO  Contributors - repo-3: loaded 2 contributors
+K1279 [Test worker @coroutine#10] INFO  Contributors - org: loaded 3 repos
+U1280 [Test worker @coroutine#10] INFO  Contributors - repo-1: loaded 2 contributors
+U1280 [Test worker @coroutine#10] INFO  Contributors - repo-2: loaded 2 contributors
+U1280 [Test worker @coroutine#10] INFO  Contributors - repo-3: loaded 2 contributors
+K1285 [Test worker @coroutine#11] INFO  Contributors - org: loaded 3 repos
+U1285 [Test worker @coroutine#11] INFO  Contributors - repo-1: loaded 2 contributors
+U1285 [Test worker @coroutine#11] INFO  Contributors - repo-2: loaded 2 contributors
+U1285 [Test worker @coroutine#11] INFO  Contributors - repo-3: loaded 2 contributors
